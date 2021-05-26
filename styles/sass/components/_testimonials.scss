@@ -1,0 +1,32 @@
+.testimonials {
+  background-color: $light-grey;
+  padding: 5rem 0;
+  margin: 0 0 5rem 0;
+}
+
+.testimonial-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $light-black;
+  &:hover {
+    text-decoration: none;
+  }
+
+  & .testimonial-card__img {
+    margin: 2rem 0;
+  }
+
+  & .testimonial-card__desc {
+    width: 100%;
+    text-align: center;
+    background-color: $white;
+    padding: 10px 5px;
+    font-size: 1.6rem;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+}

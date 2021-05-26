@@ -1,0 +1,20 @@
+.btn {
+  color: $white;
+  padding: 1.5rem 0.5rem;
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
+  display: inline-block;
+  border: solid 1px $white;
+  border-radius: 5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.btn--primary {
+    background-color: $green;
+    border: 0;
+  }
+}

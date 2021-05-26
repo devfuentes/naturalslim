@@ -1,0 +1,12 @@
+.why {
+  font-size: 1.8rem;
+  margin: 5rem 0;
+  color: $grey;
+  line-height: 1.3em;
+
+  & .why__title {
+    font-size: 2.5rem;
+    margin: 0 0 3rem 0;
+    font-weight: $heavy-font;
+  }
+}

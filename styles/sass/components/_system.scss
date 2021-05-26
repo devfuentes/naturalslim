@@ -1,0 +1,13 @@
+.system {
+  & .btn {
+    margin-top: 5rem;
+  }
+
+  & .system__img {
+    width: 100%;
+    max-width: 100%;
+    @include response-min($l) {
+      max-width: 80%;
+    }
+  }
+}

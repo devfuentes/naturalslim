@@ -8,8 +8,15 @@
 @import "base/typography.scss";
 
 // LAYOUT
+@import "layout/nav";
+@import "layout/section";
 // COMPONENTS
-
+@import "components/header";
+@import "components/buttons";
+@import "components/why";
+@import "components/title";
+@import "components/testimonials";
+@import "components/system";
 // Pages
 
 //HELPERS
