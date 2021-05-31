@@ -11,3 +11,21 @@
     bottom: 0;
   }
 }
+
+.subtitle {
+  color: $black;
+  padding: 1rem;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 4rem 0;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 3px;
+    background-color: $green;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
