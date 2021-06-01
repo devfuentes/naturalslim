@@ -17,32 +17,41 @@
   }
 }
 
-.nav {
-  padding: 2.5rem 0 0 0;
+.nav-container {
+  width: 100%;
   z-index: 2;
-  & .nav__list {
-    display: flex;
-    font-size: 1.5rem;
-    margin: 0;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    font-weight: $bold-font;
+
+  &.nav-container--black {
+    background-color: $black;
   }
 
-  & .nav__item {
-    padding: 0 10px;
-    text-transform: uppercase;
-  }
+  .nav {
+    padding: 1rem 0;
+    z-index: 2;
+    & .nav__list {
+      display: flex;
+      font-size: 1.5rem;
+      margin: 0;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      font-weight: $bold-font;
+    }
 
-  & .nav__link {
-    color: $white;
-    &.active,
-    &:hover {
-      color: $green;
-      border-bottom: solid $green 2px;
-      text-decoration: none;
+    & .nav__item {
+      padding: 0 10px;
+      text-transform: uppercase;
+    }
+
+    & .nav__link {
+      color: $white;
+      &.active,
+      &:hover {
+        color: $green;
+        border-bottom: solid $green 2px;
+        text-decoration: none;
+      }
     }
   }
 }

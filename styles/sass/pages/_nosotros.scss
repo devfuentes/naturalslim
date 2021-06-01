@@ -1,0 +1,36 @@
+.nosotros {
+  padding: 5rem 0 3rem 0;
+  margin-bottom: 5rem;
+
+  & .nosotros__title {
+    font-size: 2.5rem;
+    margin: 0 0 4rem 0;
+  }
+}
+
+.nosotros-testimonial {
+  background-color: $light-grey;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
+}
+
+.nosotros-frank {
+  margin: 0;
+  padding: 3rem 0;
+
+  & .nosotros-frank__content {
+    margin-top: 6rem;
+  }
+
+  & .nosotros-frank__container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+  }
+
+  & .nosotros-frank__subtitle {
+    max-width: 50%;
+  }
+}
